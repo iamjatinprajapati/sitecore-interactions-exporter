@@ -117,6 +117,9 @@
   <ItemGroup>
     <Content Include="App_Config\Include\SC.Interactions.Exporter.config" />
     <Content Include="readme.md" />
+    <Content Include="SqlScripts\02-Goals.sql" />
+    <Content Include="SqlScripts\01-Interactions.sql" />
+    <Content Include="SqlScripts\03-PageViewEvents.sql" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -134,9 +137,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="SqlScripts\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
